@@ -1,12 +1,8 @@
 import { Route, Routes } from "react-router-dom"
-import Navigate from "./Components/Navigate/Navigate"
 import CounterPage from "./Pages/CounterPage"
 import ExchangerPage from "./Pages/ExchangerPage"
 
-
-type Props = {}
-
-const Main = (props: Props) => {
+const Main = () => {
   return (
     <div>
         <Routes>

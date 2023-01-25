@@ -49,7 +49,7 @@ const ExchangeItemList = ({newCurrency}:Props) => {
   if (Object.values(selectedItems).length > 0) {
     for (let i = 0; i < exchangeItemsArray.length; i++) {
       for (let j = 0; j < selectItemsId.length; j++) {
-        if (exchangeItemsArray[i].id == parseInt(selectItemsId[j])) selectedPrices.push(exchangeItemsArray[i].price)
+        if (exchangeItemsArray[i].id === parseInt(selectItemsId[j])) selectedPrices.push(exchangeItemsArray[i].price)
       }
     }
   }
